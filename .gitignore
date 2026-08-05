@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# secrets — 절대 커밋 금지
+.env
+.env.*
+!.env.example
+*.pem
+*-key.json
+service-account*.json
+credentials*.json
+
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+.vercel
+*.tsbuildinfo
